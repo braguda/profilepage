@@ -1,0 +1,97 @@
+:root {
+    --primary-color: rgb(27, 27, 27);
+    --secondary-color: rgb(241, 209, 25)
+}
+
+.projects {
+    padding-bottom: 2rem;
+}
+
+.projects-bio-image{
+    height: 30vh;
+    width: 100%; 
+    background: linear-gradient(to right, rgba(27, 27, 27, 0.7), rgba(27,27,27, 0.3)), 
+    url("../images/Palms.jpg") center top;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.text-secondary{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.projects-items{
+    width: 60vw;
+    margin: 2rem auto 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+}
+
+.projects-item{
+    position: relative;
+    border-bottom: 5px solid var(--secondary-color);
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.projects-item > img {
+    width: 200px;
+    height: 200px;
+}
+
+.projects-item::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #f1d119;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+.projects-item:hover {
+    top: 0;
+    opacity: 0.9;
+}
+
+.projects-btns {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    text-align: center;
+}
+
+.projects-btn {
+    opacity: 0;
+    color: black;
+    transition: all 0.5s ease-in-out;
+}
+
+.projects-btn:hover {
+    color: whitesmoke;
+}
+
+.social-icons {
+    display: flex;
+    flex-direction: column;
+}
+
+footer{
+    transform: 
+    rotate(90deg)
+    translate(-3rem, -5rem);
+    
+}
