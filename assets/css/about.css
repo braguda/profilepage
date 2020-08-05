@@ -1,0 +1,78 @@
+:root {
+    --primary-color: rgb(27, 27, 27);
+    --secondary-color: rgb(241, 209, 25)
+}
+
+.about {
+    padding-bottom: 2rem;
+}
+
+.about-bio-image{
+    height: 60vh;
+    width: 100%; 
+    background: linear-gradient(to right, rgba(27, 27, 27, 0.7), rgba(27,27,27, 0.3)), 
+    url("../images/Palms.jpg") center top;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.about > p {
+    margin-bottom: 2rem;
+}
+
+.about-bio {
+    width: 80%;
+    text-align: center;
+    color: white;
+}
+
+.text-secondary{
+    padding-bottom: 1rem;
+}
+
+.jobs {
+    width: 60vw;
+    margin: 2rem auto 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+    color: white;
+}
+
+.jobs-job {
+    background: rgb(82, 79, 79);
+    padding: 0.5rem;
+    border-bottom: 5px solid var(--secondary-color); 
+}
+
+.jobs-job > h2, h3 {
+    margin: 0.5rem 0;
+}
+
+.jobs-job > h6 {
+    margin: 0.3rem 0;
+}
+
+.social-icons {
+    display: flex;
+    flex-direction: column;
+}
+
+.bio-title{
+    color: var(--secondary-color);
+    font-size: 40px;
+}
+
+.bio {
+    font-size: 25px;
+}
+
+footer{
+    transform: 
+    rotate(90deg)
+    translate(-3rem, -5rem);
+    
+}

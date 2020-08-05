@@ -1,7 +1,7 @@
 .menu-btn {
     position: absolute;
     z-index: 1;
-    right: 1rem;
+    right: 3rem;
     top: 1rem;
     height: 20px;
     width: 28px;
@@ -73,7 +73,7 @@
     justify-content: center;
     height: 100vh;
     overflow: hidden;
-    background: #125c70;
+    background: #262727;
     opacity: .9;
     list-style-type: none;
     padding-right: 1rem;
@@ -94,6 +94,10 @@
     transform: translateX(0);
 }
 
+.nav .menu-nav-item > a {
+    color: white;
+}
+
 .nav .menu-nav-item.active > a {
     color: rgb(214, 197, 99);
 }
@@ -109,6 +113,7 @@
 
 .nav .menu-nav-link:hover {
     animation: selected 0.2s forwards;
+    color: rgb(214, 197, 99);
 }
 
 .menu-nav-item:nth-child(1) {

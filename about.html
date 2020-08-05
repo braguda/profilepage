@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel='stylesheet' type='text/css' href="../css/main.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/menu.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/about.css" />
     <script
     src="https://code.jquery.com/jquery-3.4.1.min.js"
     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
@@ -14,38 +16,37 @@
 <body>
     <header>
         <div class="menu-btn">
-            <span class="menu-btn__burger">
-            </span>
-        </div>
-        <nav class="nav">
+            <span class="menu-btn-burger"></span>
+          </div>
+          <nav class="nav">
             <ul class="menu-nav">
-                <li class="menu-nav__item">
-                    <a href="index.html" class="menu-nav__link">Home</a>
-                </li>
-                <li class="menu-nav__item active">
-                    <a href="about.html" class="menu-nav__link">About</a>
-                </li>
-                <li class="menu-nav__item">
-                    <a href="projects.html" class="menu-nav__link">Projects</a>
-                </li>
-                <li class="menu-nav__item">
-                    <a href="contact.html" class="menu-nav__link">Contact Info</a>
-                </li>
+              <li class="menu-nav-item">
+                <a href="index.html" class="menu-nav-link">Home</a>
+              </li>
+              <li class="menu-nav-item">
+                <a href="contact.html" class="menu-nav-link">Contact</a>
+              </li>
+              <li class="menu-nav-item active">
+                <a href="about.html" class="menu-nav-link">About</a>
+              </li>
+              <li class="menu-nav-item">
+                <a href="projects.html" class="menu-nav-link">Projects</a>
+              </li>
             </ul>
-        </nav>
+          </nav>
     </header>
     <main>
         <section class="about">
-            <div class="about__bio-image">
-                <div class="about__bio">
-                <h2 class="text-secondary">Bio</h2>
-                <p>
+            <div class="about-bio-image">
+                <div class="about-bio">
+                <h2 class="text-secondary bio-title">Bio</h2>
+                <p class="bio">
                     Hi there! My name is Brian Aguda and I'm a Junior Front End Web Developer trying to kick start my career in Los Angeles. I build web applications using HTML, CSS, and JavaScript. I also am versed with some back-end programming like MySQL, Sequelize and Node/Express.js.
                 </p>
             </div>
             </div>
             <div class="jobs">
-                <div class="jobs__job">
+                <div class="jobs-job">
                     <h2 class="text-secondary">Work Experience</h2>
                     <h3>Retail Store Managment</h3>
                     <h6>2016-2018</h6>
@@ -56,7 +57,7 @@
                     <h6>2013-2016</h6>
                     <p>Worked closely with corporate visuals teams to create window, mannequin and in-store displays. Helped create store specific displays based on individual sales and trend reports. </p>
                 </div>
-                <div class="jobs__job">
+                <div class="jobs-job">
                     <h2 class="text-secondary">Education and Training</h2>
                     <h3>UCLA Extension</h3>
                     <h6>2018-2019</h6>
@@ -67,7 +68,7 @@
                     <h6>2019-2020</h6>
                     <p>Associates Degree Computer Science </p>
                 </div>
-                <div class="jobs__job">
+                <div class="jobs-job">
                     <h2 class="text-secondary">Skillset</h2>
                     <h3>Front End:</h3>
                     <h6>HTML, CSS, SASS, JavaScript/jQuery, React.js</h6>
@@ -96,4 +97,5 @@
     
 </body>
 <script type='text/javascript' src='./assets/index.js'></script>
+<script type="text/javascript" src="./assets/menu.js"></script>
 </html>

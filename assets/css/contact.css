@@ -1,0 +1,30 @@
+.contact{
+    height: 100%;
+    padding-top: 40vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background:     linear-gradient(to right, rgba(27, 27, 27, 0.7), rgba(27,27,27, 0.3)), 
+    url("../images/Palms.jpg");
+    background-size: cover; 
+}
+
+.contact > h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.contact-list{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+    width: 70vw;
+    font-size: 1.5rem;
+}
+
+.social-icons{
+    position: initial;
+    margin-top: 2rem;
+}
