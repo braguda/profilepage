@@ -6,7 +6,7 @@
     flex-direction: column;
     align-items: center;
     color: white;
-    background:     linear-gradient(to right, rgba(27, 27, 27, 0.7), rgba(27,27,27, 0.3)), 
+    background:linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(27,27,27, 0.3)), 
     url("../images/Palms.jpg");
     background-size: cover; 
 }
