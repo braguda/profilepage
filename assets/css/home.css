@@ -3,7 +3,7 @@
     --secondary-color: rgb(241, 209, 25)
 }
 
-.h {
+body {
     background-image:
     linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(27,27,27, 0.3)), 
     url("../images/Palms.jpg");

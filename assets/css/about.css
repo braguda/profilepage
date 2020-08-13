@@ -1,14 +1,17 @@
 :root {
-    --primary-color: rgb(27, 27, 27);
+    --primary-color: rgb(46, 43, 43);
     --secondary-color: rgb(241, 209, 25)
 }
 
-/* .about {
-    padding-bottom: 2rem;
-} */
+body{
+    background: var(--primary-color);
+    color: var(--primary-color);
+    height: 70vh;
+}
+
 
 .about-bio-image{
-    height: 70vh;
+    height: 50vh;
     width: 100%; 
     background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(27,27,27, 0.3)), 
     url("../images/Palms.jpg") center top;
@@ -27,6 +30,7 @@
     width: 80%;
     text-align: center;
     color: white;
+    size: 12px;
 }
 
 .text-secondary{

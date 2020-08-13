@@ -4,15 +4,14 @@
 }
 
 body{
-    background: var(--primary-color);
+    /* background: var(--primary-color);
     color: var(--primary-color);
-    height: 70vh;
+    height: 70vh; */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     /* background-image:
     linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(27,27,27, 0.3)), 
-    url("../images/Palms.jpg"); */
-    background-size: cover;
-
+    url("../images/Palms.jpg");
+    background-size: cover; */
 }
 
 h1, h2, h3{

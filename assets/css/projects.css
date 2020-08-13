@@ -1,8 +1,13 @@
 :root {
-    --primary-color: rgb(29, 29, 29);
+    --primary-color: rgb(46, 43, 43);
     --secondary-color: rgb(241, 209, 25)
 }
 
+body{
+    background: var(--primary-color);
+    color: var(--primary-color);
+    height: 70vh;
+}
 
 .project-titles {
     color: whitesmoke;
@@ -12,7 +17,7 @@
 }
 
 .projects-bio-image{
-    height: 70vh;
+    height: 50vh;
     width: 100%; 
     background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(27,27,27, 0.3)), 
     url("../images/Palms.jpg") center top;
