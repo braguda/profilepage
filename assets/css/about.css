@@ -3,12 +3,12 @@
     --secondary-color: rgb(241, 209, 25)
 }
 
-.about {
+/* .about {
     padding-bottom: 2rem;
-}
+} */
 
 .about-bio-image{
-    height: 60vh;
+    height: 70vh;
     width: 100%; 
     background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(27,27,27, 0.3)), 
     url("../images/Palms.jpg") center top;

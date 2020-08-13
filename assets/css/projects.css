@@ -3,6 +3,7 @@
     --secondary-color: rgb(241, 209, 25)
 }
 
+
 .project-titles {
     color: whitesmoke;
 }
@@ -11,7 +12,7 @@
 }
 
 .projects-bio-image{
-    height: 30vh;
+    height: 70vh;
     width: 100%; 
     background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(27,27,27, 0.3)), 
     url("../images/Palms.jpg") center top;
@@ -28,7 +29,7 @@
 }
 
 .projects-items{
-    width: 44vw;
+    width: 48vw;
     margin: 2rem auto 0 auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);

@@ -3,6 +3,13 @@
     --secondary-color: rgb(241, 209, 25)
 }
 
+.h {
+    background-image:
+    linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(27,27,27, 0.3)), 
+    url("../images/Palms.jpg");
+    background-size: cover;
+}
+
 .home{ 
     height: 100%;
     padding-top: 40vh;
@@ -10,10 +17,7 @@
     align-items: center;
     text-align: center;
     color: white;   
-    background-image:
-    linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(27,27,27, 0.3)), 
-    url("../images/Palms.jpg");
-    background-size: cover;
+
 }
 
 .home-name{
